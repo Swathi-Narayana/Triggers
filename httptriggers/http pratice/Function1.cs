@@ -127,7 +127,7 @@ namespace http_pratice
         [FunctionName("DeleteShoppingCartItem")]
         public async Task<IActionResult> DeleteShoppingCartItems(
                    [HttpTrigger(AuthorizationLevel.Anonymous, "delete", Route = "delshoppingcartitem/{id}")] HttpRequest req,
-                   ILogger log, string id)
+                   ILogger log, string id )
         {
             log.LogInformation($"Deleting Shopping Cart Item with ID: {id}");
 
