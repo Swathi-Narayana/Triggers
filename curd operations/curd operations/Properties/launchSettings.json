@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "curd_operations": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7147"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34744,
+      "useSSL": false
+    }
+  }
+}
