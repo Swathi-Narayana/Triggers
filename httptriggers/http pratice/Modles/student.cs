@@ -26,7 +26,6 @@ namespace http_pratice.NewFolder
         public int Age { get; set; }
 
        [Required(ErrorMessage = "Date of Birth is required")]
-        [DisplayFormat(ApplyFormatInEditMode = true)]
         public DateTime? DOB { get; set; }
 
         [Required(ErrorMessage = "Phone is required")]
@@ -40,8 +39,9 @@ namespace http_pratice.NewFolder
         public string Email { get; set; }
     }
 
-
-   
-
+    public class UpdateShoppingCartItem
+    {
+        public String Name { get; set; }
+    }
 
 }
